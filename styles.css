@@ -87,6 +87,7 @@ body {
 #events {
   margin: 80px auto 50vh;
   max-width: 500px;
+  padding: 0 20px;
 }
 
 ul > li {
