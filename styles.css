@@ -51,6 +51,12 @@ table {
 
 /* end reset */
 
+@font-face {
+  font-family: "Circular";
+  src: url("fonts/CircularStd-Book.otf");
+  font-weight: 300;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -60,7 +66,7 @@ body {
   background-position: 50% 25%;
   background-size: cover;
   background-attachment: fixed;
-  font-family: 'Circular Std';
+  font-family: Circular, Helvetica, Arial, sans-serif;
   font-size: 20px;
   color: #fff;
   letter-spacing: 0.1em;
