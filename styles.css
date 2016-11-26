@@ -56,11 +56,35 @@ table {
 }
 
 body {
-  background: url('bg.jpg') repeat;
-  font-family: Helvetica, Arial, "KaiTi", "楷体", STKaiti, "华文楷体", sans-serif;
-  font-size: 16px;
-  text-align: center;
-  padding: 60px 20px;
+  background: url('noodle-basket-blue.jpg');
+  background-position: 50% 25%;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Circular Std';
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 0.1em;
+  /* text-align: center; */
+  /* padding: 60px 20px; */
+  line-height: 1.5;
+  font-weight: 100;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 30px;
+  height: 100vh;
+}
+
+#events {
+  margin: 80px auto 50vh;
+  max-width: 500px;
+}
+
+ul > li {
+  margin: 20px 0;
 }
 
 h1 {
