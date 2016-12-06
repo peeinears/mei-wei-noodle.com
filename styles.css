@@ -74,14 +74,22 @@ body {
   /* padding: 60px 20px; */
   line-height: 1.5;
   font-weight: 100;
+  padding-bottom: 200px;
 }
 
 #logo {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 100px;
   max-width: 400px;
   padding: 30px;
   height: 100vh;
+}
+
+p {
+  font-size: .9em;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 10px;
 }
 
 #events {
